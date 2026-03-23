@@ -1,0 +1,32 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+.node_repl_history
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment variables (Crucial Security)
+.env
+.env.test
+.env.production
+.env.local
+*.env
+
+# Testing
+coverage/
+.nyc_output
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
