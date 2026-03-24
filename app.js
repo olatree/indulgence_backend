@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use(morgan("dev"));
 
 const allowedOrigins = [
-  'http://localhost:5173', // For your local development
+  // 'http://localhost:5173', // For your local development
   'https://indulgence-frontend-k7lyqezfi-olastree.vercel.app/' // Your live Vercel URL
 ];
 
