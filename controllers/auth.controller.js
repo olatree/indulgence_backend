@@ -12,8 +12,8 @@ const {
 
 const cookieOptions = {
   httpOnly: true,
-  secure: false, // Set to false for localhost
-  sameSite: 'lax', // Use 'lax' for localhost
+  secure: true, // Set to false for localhost
+  sameSite: 'none', // Use 'lax' for localhost
   maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
 };
 
