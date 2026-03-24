@@ -36,8 +36,8 @@ app.use(cors({
   credentials: true // Crucial if you use cookies or login sessions
 }));
 
-// Add this right after your cors configuration
-app.options('*', cors());
+// // Add this right after your cors configuration
+// app.options('*', cors());
 
 app.use(helmet());
 app.use(express.json());
