@@ -23,7 +23,7 @@ app.use(morgan("dev"));
 
 const allowedOrigins = [
   'http://localhost:5173', // For your local development
-  'https://your-app-name.vercel.app' // Your live Vercel URL
+  'https://indulgence-frontend-k7lyqezfi-olastree.vercel.app/' // Your live Vercel URL
 ];
 
 app.use(cors({
